@@ -18,6 +18,7 @@ Use the club skill's table if one exists (for example `skills/clubs/<club>/`). O
 ## Privileged roles (administrator, member management, billing)
 
 Ids `0`, `-1`, `-2` or equivalents:
+- **Never remove the administrator role** (`0`) from a member, even if asked or during a role change. `update_user` replaces the whole role list, so always keep `0` in it when it was there. Point the user to the Click n' Glide app for a removal.
 - **Never at creation**, even if asked. Create the member with their normal roles first.
 - Only for an **existing, activated member who has logged in recently**:
   - `lastVisit` from `get_users` is not `0000-00-00 00:00:00`

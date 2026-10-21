@@ -26,6 +26,7 @@ Profils hors création rapide (évolutions) : élève lâché = 5 + 13 + 6 ; Pas
 
 ## Rôles administrateur, gestion des membres, facturation (0, -1, -2)
 
+- **Ne jamais retirer** le rôle CnGAdministrator (0) d'un membre, même sur demande ou lors d'une évolution de rôles : comme `update_user` remplace toute la liste, toujours y remettre le 0 s'il était présent. Pour un retrait, renvoyer l'utilisateur vers Click n' Glide.
 - Jamais à la création.
 - Seulement pour un membre **existant, au compte validé, qui s'est connecté récemment** : `lastVisit` dans `get_users` différent de `0000-00-00 00:00:00` et datant de moins de **30 jours** (seuil validé par le secrétariat).
 - Seulement sur **demande explicite** qui nomme la personne et le rôle, avec un aperçu « avant → après » de `update_user` et un accord explicite.
