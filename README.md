@@ -9,6 +9,10 @@ An unofficial local [MCP](https://modelcontextprotocol.io) server (stdio) for [C
 - **Official API** (`https://api.clicknglide.com`, plus `https://clicknglide.com/api/forum_conversations`): one tool per documented endpoint ([Postman docs](https://documenter.getpostman.com/view/24880962/2s93RMVvfA)).
 - **Messenger** (not covered by the API): drives the Click n' Glide web app (`https://app.clicknglide.com`) in a headless Chromium browser with Playwright, logged in with **your own account**.
 
+## Skills
+
+Ready-made assistant skills for this connector (generic ones in English, plus an example club configuration in French) are in [`skills/`](skills/README.md).
+
 ## Tools
 
 | Area | Tools |
@@ -83,6 +87,7 @@ Serveur MCP local (stdio) **non officiel** pour [Click n' Glide](https://clickng
 - **Garde-fou `confirm: true`** : toute création, modification, suppression ou tout envoi exige `confirm: true`. Sinon, l'outil renvoie seulement un aperçu.
 - **L'envoi réel d'un message n'a pas encore été testé** : seul le remplissage du formulaire l'a été. Faites un premier essai vers vous-même.
 - **Installation** : `python3 -m venv .venv`, puis `.venv/bin/pip install -e .`, puis `.venv/bin/python -m playwright install --with-deps chromium`.
+- **Skills** : des skills prêtes à l'emploi sont dans [`skills/`](skills/README.md), génériques en anglais et exemple de club en français.
 - **Ajout dans Grok Bot** comme connecteur local stdio :
   - command : `/chemin/absolu/clicknglide-mcp/.venv/bin/python`
   - args : `["-m", "clicknglide_mcp"]`
