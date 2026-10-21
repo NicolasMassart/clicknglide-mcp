@@ -8,6 +8,7 @@ Ready-made skills that teach an assistant (for example Grok Bot) how to use the 
 |---|---|
 | [`clicknglide-getting-started`](generic/clicknglide-getting-started/SKILL.md) | first use, ground rules, discovering roles and fields, quota and errors |
 | [`clicknglide-planning-summary`](generic/clicknglide-planning-summary/SKILL.md) | who is flying on a day or week, what is missing |
+| [`clicknglide-self-signup`](generic/clicknglide-self-signup/SKILL.md) | signing yourself up, out or changing your own signup, for one or several days |
 | [`clicknglide-signups`](generic/clicknglide-signups/SKILL.md) | signing members up or out, adding free-text lines such as intro flights |
 | [`clicknglide-messages-forum`](generic/clicknglide-messages-forum/SKILL.md) | reading or summarizing messages and forums, sending a message to a group |
 | [`clicknglide-inbox-digest`](generic/clicknglide-inbox-digest/SKILL.md) | digest of recent messages with the actions expected from you (works from a scheduled task) |
