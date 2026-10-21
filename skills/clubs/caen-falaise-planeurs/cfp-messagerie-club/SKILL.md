@@ -5,6 +5,8 @@ description: À utiliser pour Caen Falaise Planeurs quand on veut lire ou résum
 
 # Caen Falaise Planeurs : messagerie et groupes
 
+> Les messages Click n' Glide partent d'une adresse **noreply** : toujours demander aux destinataires de répondre à contact@caenfalaiseplaneurs.fr.
+
 Suivre `clicknglide-messages-forum` : aperçu, accord explicite sur le message exact, premier envoi de test à soi-même, pas de renvoi si l'envoi n'est pas confirmé.
 
 ## Groupes de destinataires (clés de `send_message.groups`)
